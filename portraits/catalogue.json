@@ -1,0 +1,785 @@
+{
+  "version": 1,
+  "units": [
+    {
+      "name": "Abaddon The Despoiler",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Abaddon_The_Despoiler.png"
+    },
+    {
+      "name": "Abraxas",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Abraxas.png"
+    },
+    {
+      "name": "Adamatar",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Adamatar.png"
+    },
+    {
+      "name": "Ahriman",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Ahriman.png"
+    },
+    {
+      "name": "Angrax",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Angrax.png"
+    },
+    {
+      "name": "Archimatos",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Archimatos.png"
+    },
+    {
+      "name": "Azkor",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Azkor.png"
+    },
+    {
+      "name": "Corrodius",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Corrodius.png"
+    },
+    {
+      "name": "Fabius Bile",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Fabius_Bile.png"
+    },
+    {
+      "name": "Haarken Worldclaimer",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Haarken_Worldclaimer.png"
+    },
+    {
+      "name": "Hascule",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Hascule.png"
+    },
+    {
+      "name": "Kharn",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Kharn.png"
+    },
+    {
+      "name": "Laviscus",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Laviscus.png"
+    },
+    {
+      "name": "Lucius",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Lucius.png"
+    },
+    {
+      "name": "Macer",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Macer.png"
+    },
+    {
+      "name": "Maladus",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Maladus.png"
+    },
+    {
+      "name": "Nauseous Rotbone",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Nauseous_Rotbone.png"
+    },
+    {
+      "name": "Pestillian",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Pestillian.png"
+    },
+    {
+      "name": "Sekhetar Robot",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Sekhetar_Robot.png"
+    },
+    {
+      "name": "Shiron",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Shiron.png"
+    },
+    {
+      "name": "Tarvakh",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Tarvakh.png"
+    },
+    {
+      "name": "Thaumachus",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Thaumachus.png"
+    },
+    {
+      "name": "Toth",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Toth.png"
+    },
+    {
+      "name": "Typhus",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Typhus.png"
+    },
+    {
+      "name": "Volk",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Volk.png"
+    },
+    {
+      "name": "Wrask",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Wrask.png"
+    },
+    {
+      "name": "Yazaghor",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Yazaghor.png"
+    },
+    {
+      "name": "Actus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Actus.png"
+    },
+    {
+      "name": "Aesoth",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Aesoth.png"
+    },
+    {
+      "name": "Ancient Thoread",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Ancient_Thoread.png"
+    },
+    {
+      "name": "Arjac",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Arjac.png"
+    },
+    {
+      "name": "Asmodai",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Asmodai.png"
+    },
+    {
+      "name": "Atlacoya",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Atlacoya.png"
+    },
+    {
+      "name": "Azrael",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Azrael.png"
+    },
+    {
+      "name": "Baldr",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Baldr.png"
+    },
+    {
+      "name": "Baraqiel",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Baraqiel.png"
+    },
+    {
+      "name": "Bellator",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Bellator.png"
+    },
+    {
+      "name": "Brother Burchard",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Brother_Burchard.png"
+    },
+    {
+      "name": "Brother Jaeger",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Brother_Jaeger.png"
+    },
+    {
+      "name": "Castellan Creed",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Castellan_Creed.png"
+    },
+    {
+      "name": "Celestine",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Celestine.png"
+    },
+    {
+      "name": "Certus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Certus.png"
+    },
+    {
+      "name": "Cezare",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Cezare.png"
+    },
+    {
+      "name": "Commissar Yarrick",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Commissar_Yarrick.png"
+    },
+    {
+      "name": "Cyrus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Cyrus.png"
+    },
+    {
+      "name": "Dante",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Dante.png"
+    },
+    {
+      "name": "Exitor-Rho",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Exitor-Rho.png"
+    },
+    {
+      "name": "Forcas",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Forcas.png"
+    },
+    {
+      "name": "High Marshal Helbrecht",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/High_Marshal_Helbrecht.png"
+    },
+    {
+      "name": "Incisus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Incisus.png"
+    },
+    {
+      "name": "Isabella",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Isabella.png"
+    },
+    {
+      "name": "Kariyan",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Kariyan.png"
+    },
+    {
+      "name": "Kut Skoden",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Kut_Skoden.png"
+    },
+    {
+      "name": "Lucien",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Lucien.png"
+    },
+    {
+      "name": "Lysander",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Lysander.png"
+    },
+    {
+      "name": "Marneus Calgar",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Marneus_Calgar.png"
+    },
+    {
+      "name": "Marshal Dreir",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Marshal_Dreir.png"
+    },
+    {
+      "name": "Mataneo",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Mataneo.png"
+    },
+    {
+      "name": "Mephiston",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Mephiston.png"
+    },
+    {
+      "name": "Morvenn Vahl",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Morvenn_Vahl.png"
+    },
+    {
+      "name": "Nicodemus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Nicodemus.png"
+    },
+    {
+      "name": "Njal",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Njal.png"
+    },
+    {
+      "name": "Nubari",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Nubari.png"
+    },
+    {
+      "name": "Ragnar",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Ragnar.png"
+    },
+    {
+      "name": "Ramus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Ramus.png"
+    },
+    {
+      "name": "Roswitha",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Roswitha.png"
+    },
+    {
+      "name": "Sarquael",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Sarquael.png"
+    },
+    {
+      "name": "Sibyll Devine",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Sibyll_Devine.png"
+    },
+    {
+      "name": "Sword Brother Godswyl",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Sword_Brother_Godswyl.png"
+    },
+    {
+      "name": "Sy-Gex",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Sy-Gex.png"
+    },
+    {
+      "name": "Tan Gi'da",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Tan_Gi_da.png"
+    },
+    {
+      "name": "Thaddeus Noble",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Thaddeus_Noble.png"
+    },
+    {
+      "name": "Titus",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Titus.png"
+    },
+    {
+      "name": "Tjark",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Tjark.png"
+    },
+    {
+      "name": "Trajann",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Trajann.png"
+    },
+    {
+      "name": "Tyrith",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Tyrith.png"
+    },
+    {
+      "name": "Ulf",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Ulf.png"
+    },
+    {
+      "name": "Varro Tigurius",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Varro_Tigurius.png"
+    },
+    {
+      "name": "Vindicta",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Vindicta.png"
+    },
+    {
+      "name": "Vitruvius",
+      "type": "character",
+      "faction": "Imperial",
+      "image": "portraits/characters/Vitruvius.png"
+    },
+    {
+      "name": "Aethana",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Aethana.png"
+    },
+    {
+      "name": "Aleph-Null",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Aleph-Null.png"
+    },
+    {
+      "name": "Ammuk",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Ammuk.png"
+    },
+    {
+      "name": "Anuphet",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Anuphet.png"
+    },
+    {
+      "name": "Aun'Shi",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Aun_Shi.png"
+    },
+    {
+      "name": "Boss Gulgortz",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Boss_Gulgortz.png"
+    },
+    {
+      "name": "Calandis",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Calandis.png"
+    },
+    {
+      "name": "Commander Farsight",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Commander_Farsight.png"
+    },
+    {
+      "name": "Commander Shadowsun",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Commander_Shadowsun.png"
+    },
+    {
+      "name": "Darkstrider",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Darkstrider.png"
+    },
+    {
+      "name": "Deathleaper",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Deathleaper.png"
+    },
+    {
+      "name": "Eldryon",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Eldryon.png"
+    },
+    {
+      "name": "Gibbascrapz",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Gibbascrapz.png"
+    },
+    {
+      "name": "Havyr",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Havyr.png"
+    },
+    {
+      "name": "Hollan",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Hollan.png"
+    },
+    {
+      "name": "Imospekh",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Imospekh.png"
+    },
+    {
+      "name": "Isaak",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Isaak.png"
+    },
+    {
+      "name": "Jain Zar",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Jain_Zar.png"
+    },
+    {
+      "name": "Judh",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Judh.png"
+    },
+    {
+      "name": "Kimm",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Kimm.png"
+    },
+    {
+      "name": "Lhykhis",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Lhykhis.png"
+    },
+    {
+      "name": "Makhotep",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Makhotep.png"
+    },
+    {
+      "name": "Maugan Ra",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Maugan_Ra.png"
+    },
+    {
+      "name": "Neurothrope",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Neurothrope.png"
+    },
+    {
+      "name": "Parasite of Mortrex",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Parasite_of_Mortrex.png"
+    },
+    {
+      "name": "Re'vas",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Re_vas.png"
+    },
+    {
+      "name": "Sho'syl",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Sho_syl.png"
+    },
+    {
+      "name": "Snotflogga",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Snotflogga.png"
+    },
+    {
+      "name": "Snappawrecka",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Snappawrecka.png"
+    },
+    {
+      "name": "Tanksmasha",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Tanksmasha.png"
+    },
+    {
+      "name": "The Patermine",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/The_Patermine.png"
+    },
+    {
+      "name": "Thothmek",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Thothmek.png"
+    },
+    {
+      "name": "Thutmose",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Thutmose.png"
+    },
+    {
+      "name": "Tyrant Guard",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Tyrant_Guard.png"
+    },
+    {
+      "name": "Uthar the Destined",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Uthar_the_Destined.png"
+    },
+    {
+      "name": "Vynn",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Vynn.png"
+    },
+    {
+      "name": "Winged Prime",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Winged_Prime.png"
+    },
+    {
+      "name": "Xybia",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Xybia.png"
+    },
+    {
+      "name": "Zapspitta",
+      "type": "character",
+      "faction": "Xenos",
+      "image": "portraits/characters/Zapspitta.png"
+    },
+    {
+      "name": "Biovore",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Biovore.png"
+    },
+    {
+      "name": "Exorcist",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Exorcist.png"
+    },
+    {
+      "name": "Forgefiend",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Forgefiend.png"
+    },
+    {
+      "name": "Galatian",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Galatian.png"
+    },
+    {
+      "name": "Malleus Rocket Launcher",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Malleus_Rocket_Launcher.png"
+    },
+    {
+      "name": "Plagueburst Crawler",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Plagueburst_Crawler.png"
+    },
+    {
+      "name": "Reanimator",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Reanimator.png"
+    },
+    {
+      "name": "Rukkatrukk",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Rukkatrukk.png"
+    },
+    {
+      "name": "Storm Speeder",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Storm_Speeder.png"
+    },
+    {
+      "name": "Tson'ji",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Tson_ji.png"
+    },
+    {
+      "name": "Z'kar",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Z_kar.png"
+    }
+  ]
+}
