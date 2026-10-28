@@ -1,2 +1,2 @@
 # eqx-tools
-Official tools and apps developed for Tactical Equinox (EQX), a Warhammer 40,000: Tacticus guild.
+Fan made tools developed for Tactical Equinox (EQX), a Warhammer 40,000: Tacticus guild.
