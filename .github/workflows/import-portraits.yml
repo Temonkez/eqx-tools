@@ -5,16 +5,23 @@ on:
   workflow_dispatch:
     inputs:
       mode:
-        description: "Which portraits should be imported?"
+        description: "Import mode"
         required: true
         type: choice
         options:
           - test
           - all
-        default: test
+        default: all
+
+  schedule:
+    - cron: "17 5 * * 0"
 
 permissions:
-  contents: read
+  contents: write
+
+concurrency:
+  group: eqx-portrait-import
+  cancel-in-progress: false
 
 jobs:
   import-portraits:
@@ -23,6 +30,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          persist-credentials: true
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -33,12 +42,48 @@ jobs:
         run: pip install requests beautifulsoup4
 
       - name: Import portraits
-        run: python scripts/import_portraits.py --${{ inputs.mode }}
+        env:
+          IMPORT_MODE: ${{ github.event_name == 'schedule' && 'all' || inputs.mode }}
+        run: python scripts/import_portraits.py --"$IMPORT_MODE"
 
-      - name: Upload results for review
+      - name: Check full import size
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'all' }}
+        run: |
+          python - <<'PY'
+          import json
+          from pathlib import Path
+
+          path = Path("portraits/catalogue.json")
+          units = json.loads(path.read_text())["units"]
+          count = len(units)
+
+          print(f"Found {count} portraits")
+
+          if count < 100:
+              raise SystemExit(
+                  "Import unusually small. Refusing to publish."
+              )
+          PY
+
+      - name: Save portraits to repository
+        if: ${{ github.event_name == 'schedule' || inputs.mode == 'all' }}
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add portraits/
+
+          if git diff --cached --quiet; then
+            echo "Portrait library already up to date."
+          else
+            git commit -m "Update EQX portrait library"
+            git push
+          fi
+
+      - name: Upload test results
+        if: ${{ github.event_name == 'workflow_dispatch' && inputs.mode == 'test' }}
         uses: actions/upload-artifact@v4
         with:
-          name: eqx-portraits-${{ inputs.mode }}
+          name: eqx-portraits-test
           path: portraits/
           if-no-files-found: error
-          
