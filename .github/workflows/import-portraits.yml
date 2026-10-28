@@ -1,0 +1,44 @@
+
+name: EQX Portrait Importer
+
+on:
+  workflow_dispatch:
+    inputs:
+      mode:
+        description: "Which portraits should be imported?"
+        required: true
+        type: choice
+        options:
+          - test
+          - all
+        default: test
+
+permissions:
+  contents: read
+
+jobs:
+  import-portraits:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: pip install requests beautifulsoup4
+
+      - name: Import portraits
+        run: python scripts/import_portraits.py --${{ inputs.mode }}
+
+      - name: Upload results for review
+        uses: actions/upload-artifact@v4
+        with:
+          name: eqx-portraits-${{ inputs.mode }}
+          path: portraits/
+          if-no-files-found: error
+          
