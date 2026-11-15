@@ -50,6 +50,12 @@
       "image": "portraits/characters/Corrodius.png"
     },
     {
+      "name": "Daras",
+      "type": "character",
+      "faction": "Chaos",
+      "image": "portraits/characters/Daras.png"
+    },
+    {
       "name": "Fabius Bile",
       "type": "character",
       "faction": "Chaos",
@@ -720,6 +726,12 @@
       "type": "machine-of-war",
       "faction": "Machines of War",
       "image": "portraits/machines-of-war/Biovore.png"
+    },
+    {
+      "name": "Boudicari",
+      "type": "machine-of-war",
+      "faction": "Machines of War",
+      "image": "portraits/machines-of-war/Boudicari.png"
     },
     {
       "name": "Exorcist",
